@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center" style="font-size: 1.2rem;"> 
-    Terraform module to create VPC resource on AWS.
+    Terraform module to create VPC resource on aws la.
      </p>
 
 <p align="center">

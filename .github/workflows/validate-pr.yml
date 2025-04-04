@@ -12,6 +12,3 @@ jobs:
     uses: clouddrove-sandbox/terraform-shared-workflows/.github/workflows/validate-pr-title.yml@master
     secrets:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-      
