@@ -1,14 +1,25 @@
-name: 'Call Shared Workflow to Validate PR Title'
+# name: 'Call Shared Workflow to Validate PR Title'
+
+# on:
+#   workflow_dispatch:
+#   push:
+
+# jobs:
+#   validate-title:
+#     uses: 
+#     secrets:
+#       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+name: 'Validate PR title'
 
 on:
-  workflow_dispatch:
-  push:
+  pull_request_target:
+    types:
+      - opened
+      - edited
+      - synchronize
 
 jobs:
-  validate-title:
+  validate-pr-title:
     uses: clouddrove-sandbox/terraform-shared-workflows/.github/workflows/validate-pr-title.yml@master
-    secrets:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-      
+    secrets: inherit
