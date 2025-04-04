@@ -1,11 +1,7 @@
 name: 'Call Shared Workflow to Validate PR Title'
 
 on:
-  pull_request_target:
-    types:
-      - fix
-      - feat
-     
+  workflow_dispatch:
 
 jobs:
   validate-title:
