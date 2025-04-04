@@ -2,6 +2,7 @@ name: 'Call Shared Workflow to Validate PR Title'
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   validate-title:
