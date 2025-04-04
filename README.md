@@ -155,3 +155,5 @@ At [CloudDrove][website], we offer expert guidance, implementation support and s
   [twitter]: https://twitter.com/clouddrove/
   [email]: https://clouddrove.com/contact-us.html
   [terraform_modules]: https://github.com/clouddrove?utf8=%E2%9C%93&q=terraform-&type=&language=
+
+  echo "Testing PR title validation"
