@@ -9,6 +9,7 @@
 #     secrets:
 #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+
 name: 'Validate PR title'
 
 on:
